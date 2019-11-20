@@ -1,0 +1,76 @@
+
+¨com.pedro.pagamentosservice.service.PagamentoService#findByIdCartaoUsuario(Ljava/lang/Integer;Ljava/lang/Integer;Lorg/springframework/data/domain/Pageable;)Ljava/util/List;´
+†C:\Users\pedro\OneDrive\√Årea de Trabalho\microservicos-compartilhado\pagamentos-service\src\main\java\com\pedro\pagamentosservice\service\PagamentoService.java (0"paramAnnotations*ß
+paramAnnotations´
+†C:\Users\pedro\OneDrive\√Årea de Trabalho\microservicos-compartilhado\pagamentos-service\src\main\java\com\pedro\pagamentosservice\service\PagamentoService.java0 (e¸
+˘
+´
+†C:\Users\pedro\OneDrive\√Årea de Trabalho\microservicos-compartilhado\pagamentos-service\src\main\java\com\pedro\pagamentosservice\service\PagamentoService.java (
+%2"
+__annotate*
+java.lang.Override*
+
+idCartaojava.lang.IntegerÊ
+„
+´
+†C:\Users\pedro\OneDrive\√Årea de Trabalho\microservicos-compartilhado\pagamentos-service\src\main\java\com\pedro\pagamentosservice\service\PagamentoService.java9 (A
+idCartaojava.lang.Integer"__annotation*
+
+%2˙
+˜
+´
+†C:\Users\pedro\OneDrive\√Årea de Trabalho\microservicos-compartilhado\pagamentos-service\src\main\java\com\pedro\pagamentosservice\service\PagamentoService.java (
+%3"
+__annotate*
+java.lang.Override*
+
+idUserjava.lang.Integer‰
+·
+´
+†C:\Users\pedro\OneDrive\√Årea de Trabalho\microservicos-compartilhado\pagamentos-service\src\main\java\com\pedro\pagamentosservice\service\PagamentoService.javaK (Q
+idUserjava.lang.Integer"__annotation*
+
+%3ì
+ê
+´
+†C:\Users\pedro\OneDrive\√Årea de Trabalho\microservicos-compartilhado\pagamentos-service\src\main\java\com\pedro\pagamentosservice\service\PagamentoService.java (
+%4"
+__annotate*
+java.lang.Override*6
+4
+pageable(org.springframework.data.domain.Pageable˝
+˙
+´
+†C:\Users\pedro\OneDrive\√Årea de Trabalho\microservicos-compartilhado\pagamentos-service\src\main\java\com\pedro\pagamentosservice\service\PagamentoService.java\ (d4
+pageable(org.springframework.data.domain.Pageable"__annotation*
+
+%4*
+1*Ì
+
+1´
+†C:\Users\pedro\OneDrive\√Årea de Trabalho\microservicos-compartilhado\pagamentos-service\src\main\java\com\pedro\pagamentosservice\service\PagamentoService.java   ("Ã
+…
+´
+†C:\Users\pedro\OneDrive\√Årea de Trabalho\microservicos-compartilhado\pagamentos-service\src\main\java\com\pedro\pagamentosservice\service\PagamentoService.java   ("@
+%0:com.pedro.pagamentosservice.repository.PagamentoRepository"__id*Q*O6
+4com.pedro.pagamentosservice.service.PagamentoService"
+pagamentoRepository°û
+´
+†C:\Users\pedro\OneDrive\√Årea de Trabalho\microservicos-compartilhado\pagamentos-service\src\main\java\com\pedro\pagamentosservice\service\PagamentoService.java   (R
+%1java.util.List"≤com.pedro.pagamentosservice.repository.PagamentoRepository#findByIdCartaoUsuario(Ljava/lang/Integer;Ljava/lang/Integer;Lorg/springframework/data/domain/Pageable;)Ljava/util/List;*B
+@
+%0:com.pedro.pagamentosservice.repository.PagamentoRepository*
+
+idCartaojava.lang.Integer*
+
+idUserjava.lang.Integer*6
+4
+pageable(org.springframework.data.domain.Pageable2gfindByIdCartaoUsuario(Ljava/lang/Integer;Ljava/lang/Integer;Lorg/springframework/data/domain/Pageable;)"∆
+´
+†C:\Users\pedro\OneDrive\√Årea de Trabalho\microservicos-compartilhado\pagamentos-service\src\main\java\com\pedro\pagamentosservice\service\PagamentoService.java   (S
+
+%1java.util.List:
+idCartaojava.lang.Integer:
+idUserjava.lang.Integer:4
+pageable(org.springframework.data.domain.PageableB86
+4com.pedro.pagamentosservice.service.PagamentoService

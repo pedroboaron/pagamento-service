@@ -1,0 +1,17 @@
+
+Lcom.pedro.pagamentosservice.model.Pagamento#getAprovado()Ljava/lang/Boolean;¢
+óC:\Users\pedro\OneDrive\√Årea de Trabalho\microservicos-compartilhado\pagamentos-service\src\main\java\com\pedro\pagamentosservice\model\Pagamento.javaA A("1*Ù
+1¢
+óC:\Users\pedro\OneDrive\√Årea de Trabalho\microservicos-compartilhado\pagamentos-service\src\main\java\com\pedro\pagamentosservice\model\Pagamento.javaB B(Ü
+É
+¢
+óC:\Users\pedro\OneDrive\√Årea de Trabalho\microservicos-compartilhado\pagamentos-service\src\main\java\com\pedro\pagamentosservice\model\Pagamento.javaB B(
+%0java.lang.Boolean"__id*=*;-
++com.pedro.pagamentosservice.model.Pagamento"
+
+aprovado"¿
+¢
+óC:\Users\pedro\OneDrive\√Årea de Trabalho\microservicos-compartilhado\pagamentos-service\src\main\java\com\pedro\pagamentosservice\model\Pagamento.javaB B(
+
+%0java.lang.BooleanB/-
++com.pedro.pagamentosservice.model.Pagamento
