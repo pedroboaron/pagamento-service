@@ -1,16 +1,57 @@
 
-Icom.pedro.pagamentosservice.model.Pagamento#getTicket()Ljava/lang/String;¢
-óC:\Users\pedro\OneDrive\√Årea de Trabalho\microservicos-compartilhado\pagamentos-service\src\main\java\com\pedro\pagamentosservice\model\Pagamento.java) )("1*
-1¢
-óC:\Users\pedro\OneDrive\√Årea de Trabalho\microservicos-compartilhado\pagamentos-service\src\main\java\com\pedro\pagamentosservice\model\Pagamento.java* *(É
-Ä
-¢
-óC:\Users\pedro\OneDrive\√Årea de Trabalho\microservicos-compartilhado\pagamentos-service\src\main\java\com\pedro\pagamentosservice\model\Pagamento.java* *(
-%0java.lang.String"__id*;*9-
-+com.pedro.pagamentosservice.model.Pagamento"
-ticket"ø
-¢
-óC:\Users\pedro\OneDrive\√Årea de Trabalho\microservicos-compartilhado\pagamentos-service\src\main\java\com\pedro\pagamentosservice\model\Pagamento.java* *(
-
-%0java.lang.StringB/-
-+com.pedro.pagamentosservice.model.Pagamento
+Æcom.pedro.pagamentosservice.service.PagamentoService#findByIdCartaoAndIdUser(Ljava/lang/Integer;Ljava/lang/Integer;Lorg/springframework/data/domain/Pageable;)Ljava/util/List;™
+üC:\Users\pedro\OneDrive\√Årea de Trabalho\microsservicos-individuais\pagamentos-service\src\main\java\com\pedro\pagamentosservice\service\PagamentoService.java/ /(2"paramAnnotations*†
+paramAnnotations™
+üC:\Users\pedro\OneDrive\√Årea de Trabalho\microsservicos-individuais\pagamentos-service\src\main\java\com\pedro\pagamentosservice\service\PagamentoService.java/2 /(g˚
+¯
+™
+üC:\Users\pedro\OneDrive\√Årea de Trabalho\microsservicos-individuais\pagamentos-service\src\main\java\com\pedro\pagamentosservice\service\PagamentoService.java. .(
+%0"
+__annotate*
+java.lang.Override*
+
+idCartaojava.lang.IntegerÂ
+‚
+™
+üC:\Users\pedro\OneDrive\√Årea de Trabalho\microsservicos-individuais\pagamentos-service\src\main\java\com\pedro\pagamentosservice\service\PagamentoService.java/; /(C
+idCartaojava.lang.Integer"__annotation*
+
+%0˘
+ˆ
+™
+üC:\Users\pedro\OneDrive\√Årea de Trabalho\microsservicos-individuais\pagamentos-service\src\main\java\com\pedro\pagamentosservice\service\PagamentoService.java. .(
+%1"
+__annotate*
+java.lang.Override*
+
+idUserjava.lang.Integer„
+‡
+™
+üC:\Users\pedro\OneDrive\√Årea de Trabalho\microsservicos-individuais\pagamentos-service\src\main\java\com\pedro\pagamentosservice\service\PagamentoService.java/M /(S
+idUserjava.lang.Integer"__annotation*
+
+%1í
+è
+™
+üC:\Users\pedro\OneDrive\√Årea de Trabalho\microsservicos-individuais\pagamentos-service\src\main\java\com\pedro\pagamentosservice\service\PagamentoService.java. .(
+%2"
+__annotate*
+java.lang.Override*6
+4
+pageable(org.springframework.data.domain.Pageable¸
+˘
+™
+üC:\Users\pedro\OneDrive\√Årea de Trabalho\microsservicos-individuais\pagamentos-service\src\main\java\com\pedro\pagamentosservice\service\PagamentoService.java/^ /(f4
+pageable(org.springframework.data.domain.Pageable"__annotation*
+
+%2*
+1*Ë
+1™
+üC:\Users\pedro\OneDrive\√Årea de Trabalho\microsservicos-individuais\pagamentos-service\src\main\java\com\pedro\pagamentosservice\service\PagamentoService.java0 0(""µ
+™
+üC:\Users\pedro\OneDrive\√Årea de Trabalho\microsservicos-individuais\pagamentos-service\src\main\java\com\pedro\pagamentosservice\service\PagamentoService.java0 0(L
+"":
+idCartaojava.lang.Integer:
+idUserjava.lang.Integer:4
+pageable(org.springframework.data.domain.PageableB86
+4com.pedro.pagamentosservice.service.PagamentoService

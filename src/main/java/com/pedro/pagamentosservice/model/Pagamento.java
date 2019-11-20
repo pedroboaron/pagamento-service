@@ -1,6 +1,10 @@
 package com.pedro.pagamentosservice.model;
 
-import javax.persistence.*;
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
 
 @Entity
 public class Pagamento {
@@ -10,13 +14,11 @@ public class Pagamento {
     @Column(name = "id_requisicao", nullable = false)
     private Integer id;
 
-    @ManyToOne
-    @JoinColumn(name = "id_user")
-    private Usuario user;
+    @Column(name = "id_user", nullable = false)
+    private Integer idUser;
 
-    @ManyToOne
-    @JoinColumn(name = "id_cartao_usuario")
-    private CartaoUsuario cartaoUsuario;
+    @Column(name = "id_cartao", nullable = false)
+    private Integer idCartao;
 
     @Column(name = "ticket", nullable = false)
     private String ticket;
@@ -36,6 +38,22 @@ public class Pagamento {
 
     public void setId(Integer id) {
         this.id = id;
+    }
+
+    public Integer getIdUser() {
+        return idUser;
+    }
+
+    public void setIdUser(Integer idUser) {
+        this.idUser = idUser;
+    }
+
+    public Integer getIdCartao() {
+        return idCartao;
+    }
+
+    public void setIdCartao(Integer idCartao) {
+        this.idCartao = idCartao;
     }
 
     public String getTicket() {
@@ -68,21 +86,5 @@ public class Pagamento {
 
     public void setAprovado(Boolean aprovado) {
         this.aprovado = aprovado;
-    }
-
-    public CartaoUsuario getCartaoUsuario() {
-        return cartaoUsuario;
-    }
-
-    public void setCartaoUsuario(CartaoUsuario cartaoUsuario) {
-        this.cartaoUsuario = cartaoUsuario;
-    }
-
-    public Usuario getUser() {
-        return user;
-    }
-
-    public void setUser(Usuario user) {
-        this.user = user;
     }
 }

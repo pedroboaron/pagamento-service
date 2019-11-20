@@ -2,8 +2,6 @@ package com.pedro.pagamentosservice.controller;
 
 import com.pedro.pagamentosservice.event.RecursoCriadoEvent;
 import com.pedro.pagamentosservice.model.Pagamento;
-import com.pedro.pagamentosservice.repository.CartaoUsuarioRepository;
-import com.pedro.pagamentosservice.repository.UsuarioRepository;
 import com.pedro.pagamentosservice.service.PagamentoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationEventPublisher;
@@ -16,18 +14,13 @@ import javax.servlet.http.HttpServletResponse;
 import javax.validation.Valid;
 import java.util.List;
 
+
 @RestController
 @RequestMapping("/")
 public class PagamentoController {
 
     @Autowired
     private PagamentoService pagamentoService;
-
-    @Autowired
-    private UsuarioRepository usuarioRepository;
-
-    @Autowired
-    private CartaoUsuarioRepository cartaoUsuarioRepository;
 
     @Autowired
     private ApplicationEventPublisher publisher;
@@ -46,15 +39,11 @@ public class PagamentoController {
                                                           @RequestParam(value = "page", required = false, defaultValue = "0") int page,
                                                           @RequestParam(value = "size", required = false, defaultValue = "10") int size) {
         PageRequest pageRequest = PageRequest.of(page, size);
-        return ResponseEntity.ok(pagamentoService.findByIdCartaoUsuario(idCartao, idUser, pageRequest));
+        return ResponseEntity.ok(pagamentoService.findByIdCartaoAndIdUser(idCartao, idUser, pageRequest));
     }
 
     @PostMapping
-    public ResponseEntity<Pagamento> save(@RequestParam("idUser") Integer idUser,
-                                          @RequestParam("idCartaoUsuario") Integer idCartaoUsuario,
-                                          @Valid @RequestBody Pagamento pagamento, HttpServletResponse response) {
-        pagamento.setUser(usuarioRepository.findById(idUser).orElse(null));
-        pagamento.setCartaoUsuario(cartaoUsuarioRepository.findById(idCartaoUsuario).orElse(null));
+    public ResponseEntity<Pagamento> save(@Valid @RequestBody Pagamento pagamento, HttpServletResponse response) {
         Pagamento save = pagamentoService.save(pagamento);
         publisher.publishEvent(new RecursoCriadoEvent(this, response, save.getId()));
         return ResponseEntity.status(HttpStatus.CREATED).body(save);

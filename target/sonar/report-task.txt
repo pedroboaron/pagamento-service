@@ -3,5 +3,5 @@ projectKey=pedroboaron_pagamento-service
 serverUrl=https://sonarcloud.io
 serverVersion=8.0.0.2823
 dashboardUrl=https://sonarcloud.io/dashboard?id=pedroboaron_pagamento-service
-ceTaskId=AW6Kvhqk8eXU6RifcavK
-ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AW6Kvhqk8eXU6RifcavK
+ceTaskId=AW6Kw_wGMF4dIdgBZ9Dj
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AW6Kw_wGMF4dIdgBZ9Dj

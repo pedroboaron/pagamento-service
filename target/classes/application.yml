@@ -12,7 +12,7 @@ spring:
     name: pagamentos-service
   datasource:
     driverClassName: org.postgresql.Driver
-    url: jdbc:postgresql://localhost:5432/Servicos
+    url: jdbc:postgresql://localhost:5432/Pagamentos
     username: postgres
     password: postgres
     continueOnError: true
